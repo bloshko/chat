@@ -1,0 +1,25 @@
+#root {
+  margin: 0 auto;
+}
+
+h1 {
+  @media (max-width: 1000px) {
+    text-indent: 8px;
+  }
+}
+
+main {
+  width: 90ch;
+  height: 100vh;
+  max-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 2px 0;
+
+  @media (max-width: 1000px) {
+    width: 100vw;
+    gap: 8px;
+  }
+}

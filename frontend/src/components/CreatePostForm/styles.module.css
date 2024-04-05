@@ -1,0 +1,17 @@
+.postForm {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border: 1px solid #c6c6c6;
+}
+
+.text {
+  resize: vertical;
+}
+
+.submit {
+  margin-top: 8px;
+  min-width: 80px;
+  height: 30px;
+  align-self: flex-end;
+}

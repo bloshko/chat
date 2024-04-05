@@ -1,0 +1,52 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1.5px dashed black;
+  padding: 6px;
+}
+
+.author {
+  font-size: 20px;
+}
+
+.topic {
+  line-height: 1;
+  font-size: 14px;
+}
+
+.text {
+  margin-top: 4px;
+  word-break: break-word;
+}
+
+.topic,
+.text {
+  margin-left: 10px;
+}
+
+.postList {
+  scroll-margin-block: 8px;
+  overflow-y: scroll;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column-reverse;
+  border: 1px solid #c6c6c6;
+  padding: 8px;
+  gap: 12px;
+}
+
+.noPosts {
+  text-align: center;
+  color: #c6c6c6;
+}
+
+.date {
+  font-size: 12px;
+  color: #c6c6c6;
+}
+
+.title {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
